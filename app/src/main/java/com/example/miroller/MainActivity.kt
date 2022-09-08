@@ -27,27 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         img.setImageResource(R.drawable.empty_dice)
         img2.setImageResource(R.drawable.empty_dice)
-        //val dra = resources.getDrawable(R.drawable.dice_3)
-//        img.setImageDrawable(dra)
 
-        // Forma larga de asignar listener
-//        boton.setOnClickListener(View.OnClickListener {
-//            Toast.makeText(applicationContext, "Boton Presionado", Toast.LENGTH_LONG).show()
-//        })
 
         boton.setOnClickListener{
             Toast.makeText(applicationContext, "Boton Presionado", Toast.LENGTH_LONG).show()
-
-//            if(etq.text == "Hola"){
-//                etq.text="Adios"
-//            }else{
-//                etq.text="Hola"
-//            }
-
-
-            // Interpolacion de cadenas con linea ejecutable, siempre empieza con ${metodo o variable}
-//            etq.text="Aleatorio: ${diceRoller()}
-
 
             img.setImageResource(getRandomDiceImage())
 
@@ -62,7 +45,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun diceRoller(par: Int = 0): Int{
-        // Genera un rango con el ..
         return (1..6).random()
     }
 

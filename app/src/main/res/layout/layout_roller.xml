@@ -18,14 +18,14 @@
         android:id="@+id/imgRoller"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|fill"
+        android:layout_gravity="right|fill"
         android:src="@drawable/dice_6" />
 
     <ImageView
         android:id="@+id/imgRoller2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|fill_vertical|end"
+        android:layout_gravity="left|fill_vertical|end"
         android:src="@drawable/dice_6" />
 
     <Button
